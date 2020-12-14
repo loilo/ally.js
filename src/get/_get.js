@@ -1,21 +1,11 @@
 
 // exporting modules to be included the UMD bundle
 
-import activeElement from './active-element';
-import activeElements from './active-elements';
-import focusRedirectTarget from './focus-redirect-target';
-import focusTarget from './focus-target';
-import insignificantBranches from './insignificant-branches';
-import parents from './parents';
-import shadowHostParents from './shadow-host-parents';
-import shadowHost from './shadow-host';
-export default {
-  activeElement,
-  activeElements,
-  focusRedirectTarget,
-  focusTarget,
-  insignificantBranches,
-  parents,
-  shadowHostParents,
-  shadowHost,
-};
+export { default as activeElement } from './active-element';
+export { default as activeElements } from './active-elements';
+export { default as focusRedirectTarget } from './focus-redirect-target';
+export { default as focusTarget } from './focus-target';
+export { default as insignificantBranches } from './insignificant-branches';
+export { default as parents } from './parents';
+export { default as shadowHostParents } from './shadow-host-parents';
+export { default as shadowHost } from './shadow-host';

@@ -1,15 +1,8 @@
 
 // exporting modules to be included the UMD bundle
 
-import firstTabbable from './first-tabbable';
-import focusable from './focusable';
-import shadowHosts from './shadow-hosts';
-import tabbable from './tabbable';
-import tabsequence from './tabsequence';
-export default {
-  firstTabbable,
-  focusable,
-  shadowHosts,
-  tabbable,
-  tabsequence,
-};
+export { default as firstTabbable } from './first-tabbable';
+export { default as focusable } from './focusable';
+export { default as shadowHosts } from './shadow-hosts';
+export { default as tabbable } from './tabbable';
+export { default as tabsequence } from './tabsequence';

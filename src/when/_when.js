@@ -1,11 +1,6 @@
 
 // exporting modules to be included the UMD bundle
 
-import focusable from './focusable';
-import key from './key';
-import visibleArea from './visible-area';
-export default {
-  focusable,
-  key,
-  visibleArea,
-};
+export { default as focusable } from './focusable';
+export { default as key } from './key';
+export { default as visibleArea } from './visible-area';

@@ -1,25 +1,14 @@
 
 // exporting modules to be included the UMD bundle
 
-import activeElement from './active-element';
-import disabled from './disabled';
-import focusRelevant from './focus-relevant';
-import focusable from './focusable';
-import onlyTabbable from './only-tabbable';
-import shadowed from './shadowed';
-import tabbable from './tabbable';
-import validArea from './valid-area';
-import validTabindex from './valid-tabindex';
-import visible from './visible';
-export default {
-  activeElement,
-  disabled,
-  focusRelevant,
-  focusable,
-  onlyTabbable,
-  shadowed,
-  tabbable,
-  validArea,
-  validTabindex,
-  visible,
-};
+export { default as activeElement} from './active-element';
+export { default as disabled} from './disabled';
+export { default as focusRelevant} from './focus-relevant';
+export { default as focusable} from './focusable';
+export { default as onlyTabbable} from './only-tabbable';
+export { default as shadowed} from './shadowed';
+export { default as tabbable} from './tabbable';
+export { default as validArea} from './valid-area';
+export { default as validTabindex} from './valid-tabindex';
+export { default as visible} from './visible';
+

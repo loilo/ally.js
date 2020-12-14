@@ -1,9 +1,5 @@
 
 // exporting modules to be included the UMD bundle
 
-import activeElement from './active-element';
-import shadowFocus from './shadow-focus';
-export default {
-  activeElement,
-  shadowFocus,
-};
+export { default as activeElement } from './active-element';
+export { default as shadowFocus } from './shadow-focus';
